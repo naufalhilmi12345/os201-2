@@ -1,0 +1,26 @@
+Script started on Sun 07 Jun 2020 08:45:48 PM WIB
+^[]0;muhammad.salman82@badak: ~^Gmuhammad.salman82@badak:~$ PS1="$ "
+$ echo $GitHubUser
+AlphaRazra
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1su$
+$ eval $PSTAMP
+200607-204615-0547-muhammad.salman82/>
+$ PS1="\$(eval \$PSTAMP)"
+200607-204625-fe0d-muhammad.salman82/> date
+Sun Jun  7 20:46:29 WIB 2020
+200607-204629-f20f-muhammad.salman82/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/m/muhammad.salman82/.gnupg/pubring.gpg
+---------------------------------------------------------------
+pub   2048R/5D3251AA 2020-06-07
+uid       [ultimate] Muhammad Salman Al Farisi (Semoga OS dapat A) <muhammadsal$
+sub   2048R/0B461718 2020-06-07
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-204634-a8c3-muhammad.salman82/> exit
+exit
+
+Script done on Sun 07 Jun 2020 08:46:38 PM WIB
